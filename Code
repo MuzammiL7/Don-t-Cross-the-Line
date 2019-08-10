@@ -106,46 +106,27 @@ else if(ele=='y')
 
 void right1()
 {
-/* if(m!=4&&m!=2)
- {
-  tail1.x=head1.x;
-  tail1.y=head1.y;
-  }*/
  head1.x=head1.x+1;
  check(2);
  m=4;
 }
+
 void right2()
 {
- /*if(n!=4&&n!=2)
- {
-   tail2.x=head2.x;
-   tail2.y=head2.y;
- }*/
  head2.x=head2.x+1;
  check(6);
  n=4;
 }
+
 void left1()
 {
- /*if(m!=2&&m!=4)
-  {
-   tail1.x=head1.x;
-   tail1.y=head1.y;
-   }*/
    head1.x=head1.x-1;
    check(4);
    m=2;
  }
 
-
 void left2()
 {
- /*if(n!=2&&n!=4)
- {
-   tail2.x=head2.x;
-   tail2.y=head2.y;
- }*/
  head2.x=head2.x-1;
  check(8);
  n=2;
@@ -153,48 +134,32 @@ void left2()
 
 void down1()
 {
- /*if(m!=3&&m!=1)
- {
- tail1.x=head1.x;
- tail1.y=head1.y;
- }*/
  head1.y=head1.y+1;
  check(1);
  m=3;
 }
+
 void down2()
 {
- /*if(n!=3&&n!=1)
- {
-   tail2.x=head2.x;
-   tail2.y=head2.y;
- }*/
  head2.y=head2.y+1;
  check(5);
   n=3;
 }
 void up1()
 {
- /*if(m!=3&&m!=1)
- {
-   tail1.x=head1.x;
-   tail1.y=head1.y;
- } */
  head1.y=head1.y-1;
  check(3);
  m=1;
 }
+
 void up2()
 {
- /*if(n!=3&&n!=1)
- {
-  tail2.x=head2.x;
-  tail2.y=head2.y;
-  }*/
  head2.y=head2.y-1;
  check(7);
  n=1;
 }
+
+
 void draw()
 {
 char ch;
@@ -216,6 +181,8 @@ while(1)
   delay(gta);
 }
 }
+
+
 void check(int op)
 {
   int i,j,k,l;
@@ -271,6 +238,8 @@ void win2()
   closegraph();
   main();
 }
+
+
 void menu()
 {
   char f;
@@ -339,6 +308,7 @@ void about()
   getch();
   cleardevice();
 }
+
 void lvl()
 {
   char GTA5;
