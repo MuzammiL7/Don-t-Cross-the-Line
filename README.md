@@ -1,7 +1,7 @@
 # Don't Cross the Line
 2 player game written in C.
 
-My First ever programming project inspired from a mini-game in GTA 5.
+My first ever programming project inspired from a mini-game in GTA 5.
 
 Note: To be able to play this game your machine should have any C graphical Environment like Turbo-C etc.
 
