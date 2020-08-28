@@ -15,5 +15,5 @@ What I learnt from this:
 - How to play with the flow of control in the program.
 
 Team Members:
-- Muzammil Hussain.
-- Abhilash Gudisena (https://github.com/Abhilash1002).
+- Muzammil Hussain. (https://github.com/MuzammiLFive)
+- Abhilash Gudisena. (https://github.com/Abhilash1002).
